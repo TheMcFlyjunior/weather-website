@@ -27,8 +27,7 @@ async function updateWeather() {
     if (weatherData) {
         const condition = weatherData.main;
         const gifUrl = getGifUrlForCondition(condition);
-
-        weatherConditionElement.textContent = condition;
+        
         weatherGifElement.src = gifUrl;
     }
 }
