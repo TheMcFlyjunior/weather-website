@@ -5,9 +5,17 @@ async function getWeatherData() {
     try {
         const response = await fetch(apiUrl);
         const data = await response.json();
-        return data.weather[0];
+
+        // Check if 'weather' is defined and not empty
+        if (data.weather && data.weather.length > 0) {
+            return data.weather[0];
+        } else {
+            console.error('Wetterdaten fehlen oder sind ungültig:', data);
+            return null; // or handle the error accordingly
+        }
     } catch (error) {
         console.error('Fehler beim Abrufen der Wetterdaten:', error);
+        return null; // or handle the error accordingly
     }
 }
 
