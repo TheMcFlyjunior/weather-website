@@ -20,7 +20,6 @@ async function getWeatherData() {
 }
 
 async function updateWeather() {
-    const weatherConditionElement = document.getElementById('weather-condition');
     const weatherGifElement = document.getElementById('weather-gif');
 
     const weatherData = await getWeatherData();
