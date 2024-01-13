@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#weather-container {
+    margin-top: 50px;
+}
+
+#weather-condition {
+    font-size: 24px;
+}
+
+#weather-gif {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
