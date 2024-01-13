@@ -1,5 +1,5 @@
 const apiKey = '5ef0b6d8f664c62eb44ebb09c260d530'; 
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=DEINE_STADT&appid=' + apiKey;
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=dormagen&appid=' + apiKey;
 
 async function getWeatherData() {
     try {
