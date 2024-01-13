@@ -8,8 +8,17 @@
 </head>
 <body>
     <div id="weather-container">
+        <h1 id="weather-condition"></h1>
         <img id="weather-gif" src="" alt="Weather GIF">
     </div>
     <script src="script.js"></script>
+
+    <script>
+        // Ensure the script is executed after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize the weather on page load
+            updateWeather();
+        });
+    </script>
 </body>
 </html>
