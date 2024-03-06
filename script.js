@@ -53,7 +53,7 @@ function getGifUrlForCondition(condition) {
     };
 
     // Standard-GIF-URL, falls die Bedingung nicht gefunden wird
-    const defaultGif = 'https://media.tenor.com/j2ESpKgKChUAAAAj/anime-cute.gif';
+    const defaultGif = 'https://i.pinimg.com/originals/35/ce/9f/35ce9f85da291b4c1c504d8cbd37e8ee.gif';
 
     // Überprüfe, ob die Wetterbedingung in den Mapping-Daten vorhanden ist
     if (condition in gifMappings) {
