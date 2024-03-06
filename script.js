@@ -36,7 +36,7 @@ function getGifUrlForCondition(condition) {
     // Mapping von Wetterbedingungen zu entsprechenden GIF-URLs
     const gifMappings = {
         'Clear': 'clear.gif',
-        'Clouds': 'https://media.tenor.com/j2ESpKgKChUAAAAj/anime-cute.gif',
+        'Clouds': 'https://i.pinimg.com/originals/35/ce/9f/35ce9f85da291b4c1c504d8cbd37e8ee.gif',
         'Rain': 'rain.gif',
         'Drizzle': 'drizzle.gif',
         'Thunderstorm': 'thunderstorm.gif',
